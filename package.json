@@ -1,0 +1,27 @@
+{
+  "name": "book_app",
+  "version": "1.0.0",
+  "description": "My first book app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Levitsky Daniil",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "eslint": "^9.9.1",
+    "globals": "^15.9.0",
+    "rollup": "^4.21.2",
+    "rollup-plugin-import-css": "^3.5.1"
+  },
+  "dependencies": {
+    "on-change": "^5.0.1"
+  }
+}
